@@ -23,4 +23,4 @@ class Pokemon:
     def __str__(self):
         ability_str = "\n".join(f"- {ability}" for ability in self.abilities)
         type_str = "\n".join(f"- {p_type}" for p_type in self.types)
-        return f"Pokemon name: {self.name}\n\nAbility:\n{ability_str}\n\nType:\n{type_str}\n\nSpecies:\n{self.species}\n\nDescription: \n{self.description}\n"
+        return f"\nPokemon name: {self.name}\n\nAbility:\n{ability_str}\n\nType:\n{type_str}\n\nSpecies:\n{self.species}\n\nDescription: \n{self.description}\n"
